@@ -1,0 +1,13 @@
+D:\VS Projetos\IntroducaoEFCore\Src\bin\Debug\netcoreapp3.1\IntroducaoEFCore.exe
+D:\VS Projetos\IntroducaoEFCore\Src\bin\Debug\netcoreapp3.1\IntroducaoEFCore.deps.json
+D:\VS Projetos\IntroducaoEFCore\Src\bin\Debug\netcoreapp3.1\IntroducaoEFCore.runtimeconfig.json
+D:\VS Projetos\IntroducaoEFCore\Src\bin\Debug\netcoreapp3.1\IntroducaoEFCore.runtimeconfig.dev.json
+D:\VS Projetos\IntroducaoEFCore\Src\bin\Debug\netcoreapp3.1\IntroducaoEFCore.dll
+D:\VS Projetos\IntroducaoEFCore\Src\bin\Debug\netcoreapp3.1\IntroducaoEFCore.pdb
+D:\VS Projetos\IntroducaoEFCore\Src\obj\Debug\netcoreapp3.1\IntroducaoEFCore.csprojAssemblyReference.cache
+D:\VS Projetos\IntroducaoEFCore\Src\obj\Debug\netcoreapp3.1\IntroducaoEFCore.AssemblyInfoInputs.cache
+D:\VS Projetos\IntroducaoEFCore\Src\obj\Debug\netcoreapp3.1\IntroducaoEFCore.AssemblyInfo.cs
+D:\VS Projetos\IntroducaoEFCore\Src\obj\Debug\netcoreapp3.1\IntroducaoEFCore.csproj.CoreCompileInputs.cache
+D:\VS Projetos\IntroducaoEFCore\Src\obj\Debug\netcoreapp3.1\IntroducaoEFCore.dll
+D:\VS Projetos\IntroducaoEFCore\Src\obj\Debug\netcoreapp3.1\IntroducaoEFCore.pdb
+D:\VS Projetos\IntroducaoEFCore\Src\obj\Debug\netcoreapp3.1\IntroducaoEFCore.genruntimeconfig.cache
