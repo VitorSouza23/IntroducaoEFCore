@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj": {}
+    "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj": {}
   },
   "projects": {
-    "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj": {
+    "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj",
+        "projectUniqueName": "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj",
         "projectName": "IntroducaoEFCore",
-        "projectPath": "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj",
+        "projectPath": "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "D:\\VS Projetos\\IntroducaoEFCore\\src\\obj\\",
+        "outputPath": "D:\\VS Projetos\\IntroducaoEFCore\\Src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
