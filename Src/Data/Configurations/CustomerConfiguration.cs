@@ -16,7 +16,7 @@ namespace IntroducaoEFCore.Data.Configurations
             builder.Property(c => c.UF).HasColumnType("CHAR(2)").IsRequired();
             builder.Property(c => c.City).HasMaxLength(60).IsRequired();
 
-            builder.HasIndex(i => i.Phone).HasName("idx_customern_phone");
+            builder.HasIndex(i => i.Phone).HasDatabaseName("idx_customern_phone");
         }
     }
 }
