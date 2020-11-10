@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj": {}
+    "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj": {}
   },
   "projects": {
-    "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj": {
+    "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj",
+        "projectUniqueName": "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj",
         "projectName": "IntroducaoEFCore",
-        "projectPath": "D:\\VS Projetos\\IntroducaoEFCore\\Src\\IntroducaoEFCore.csproj",
+        "projectPath": "D:\\VS Projetos\\IntroducaoEFCore\\src\\IntroducaoEFCore.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "D:\\VS Projetos\\IntroducaoEFCore\\Src\\obj\\",
+        "outputPath": "D:\\VS Projetos\\IntroducaoEFCore\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,7 +38,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[*, )"
             }
