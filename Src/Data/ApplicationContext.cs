@@ -24,6 +24,39 @@ namespace IntroducaoEFCore.Data
 
                 p.HasIndex(i => i.Phone).HasName("idx_customern_phone");
             });
+
+            modelBuilder.Entity<Product>(p =>
+            {
+                p.ToTable("Products");
+                p.HasKey(c => c.Id);
+                p.Property(c => c.BarCode).HasColumnType("VARCHAR(14)").IsRequired();
+                p.Property(c => c.Description).HasColumnType("VARCHAR(60)");
+                p.Property(c => c.Value).IsRequired();
+                p.Property(c => c.ProductType).HasConversion<string>();
+            });
+
+            modelBuilder.Entity<Order>(p =>
+            {
+                p.ToTable("Order");
+                p.HasKey(c => c.Id);
+                p.Property(c => c.StartIn).HasDefaultValueSql("GETDATE()").ValueGeneratedOnAdd();
+                p.Property(c => c.OrderState).HasConversion<string>();
+                p.Property(c => c.FreightType).HasConversion<int>();
+                p.Property(c => c.Observation).HasColumnType("VARCHAR(512)");
+
+                p.HasMany(c => c.OrderItems)
+                    .WithOne(c => c.Order)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            modelBuilder.Entity<OrderItem>(p =>
+            {
+                p.ToTable("OrderItems");
+                p.HasKey(c => c.Id);
+                p.Property(c => c.Amount).HasDefaultValue(1).IsRequired();
+                p.Property(c => c.Value).IsRequired();
+                p.Property(c => c.Discount).IsRequired();
+            });
         }
     }
 }

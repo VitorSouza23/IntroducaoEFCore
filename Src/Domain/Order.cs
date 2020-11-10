@@ -6,7 +6,7 @@ namespace IntroducaoEFCore.Domain
 {
     public class Order
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public int CustomerId { get; set; }
         public Customer Customer { get; set; }
         public DateTime StartIn { get; set; }
@@ -14,6 +14,6 @@ namespace IntroducaoEFCore.Domain
         public FreightType FreightType { get; set; }
         public OrderState OrderState { get; set; }
         public string Observation { get; set; }
-        public ICollection<OrderItem> MyProperty { get; set; }
+        public ICollection<OrderItem> OrderItems { get; set; }
     }
 }
